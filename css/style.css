@@ -4,50 +4,58 @@ html, body {
 }
 
 body {
-    background-color: #B7B55E;
+    background-color: #EDEBD7;
 }
 
 header {
     background-color: #8F8B30;
+    background-image:
+    linear-gradient(
+    #8F8B30, #ADAA68);
     width: 100%;
-    height: 350px;
+    height: 15em;
     position: relative;
 }
 
-.semicircle {
-    width: 500px;
-    height: 250px;
-    border-radius: 250px 250px 0 0;
-    background-color: #B7B55E;
+.circle {
+    width: 25em;
+    height: 25em;
+    border-radius: 50%;
+    background-image:
+    radial-gradient(
+    #D3D88A, #B7B55E);
     position: absolute;
     left: 50%;
-    margin-top: 100px;
-    margin-left: -250px;
+    margin-top: 2.5em;
+    margin-left: -12.5em;
 }
 
-img {
+.logo {
+    width: 13em;
+    height: 13em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
-    margin: 6em auto;
-}
-
-.wrapper {
-    min-height: 100%;
-    margin-bottom: -100px;
-}
-
-.footer {
-    background-color: #8F8B30;
-}
-
-.footer,
-.push {
-    height: 100px;
 }
 
 h1 {
     text-align: center;
+    margin: 0;
 }
 
-.restaurant {
-    text-align: center;
+.wrapper {
+    min-height: 100%;
+    margin-bottom: 5em;
+}
+
+.footer {
+    background-image:
+    linear-gradient(
+    #8F8B30, #ADAA68);
+}
+
+.footer,
+.push {
+    height: 5em;
 }
