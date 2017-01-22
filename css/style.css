@@ -1,7 +1,47 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #B7B55E;
+}
+
 header {
-    margin: 0 auto;
-    width: 35em;
-    height: 35em;
-    border-radius: 50%;
-    background-color: #B9B760;
+    background-color: #8F8B30;
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.semicircle {
+    width: 500px;
+    height: 250px;
+    border-radius: 250px 250px 0 0;
+    background-color: #B7B55E;
+    position: absolute;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: -250px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6em;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -100px;
+}
+
+.footer {
+    background-color: #8F8B30;
+}
+
+.footer,
+.push {
+    height: 100px;
 }
