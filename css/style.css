@@ -27,9 +27,7 @@ header {
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 6em;
+    margin: 6em auto;
 }
 
 .wrapper {
@@ -44,4 +42,12 @@ img {
 .footer,
 .push {
     height: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.restaurant {
+    text-align: center;
 }
