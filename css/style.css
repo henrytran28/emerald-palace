@@ -4,14 +4,11 @@ html, body {
 }
 
 body {
-    background-color: #EDEBD7;
+    background-color: #F2F2F2;
 }
 
 header {
-    background-color: #8F8B30;
-    background-image:
-    linear-gradient(
-    #8F8B30, #ADAA68);
+    background-color: #60AA85;
     width: 100%;
     height: 15em;
     position: relative;
@@ -19,22 +16,22 @@ header {
 }
 
 .circle {
-    width: 25em;
-    height: 25em;
+    width: 20em;
+    height: 20em;
     border-radius: 50%;
     background-image:
-    radial-gradient(
-    #D3D88A, #B7B55E);
+    linear-gradient(
+    #47834B, #60AA85);
     position: absolute;
     left: 50%;
-    margin-top: 2.5em;
-    margin-left: -12.5em;
+    margin-top: 5em;
+    margin-left: -10em;
     box-shadow: 0 9px 30px 3px rgba(0,0,0,.46);
 }
 
 .logo {
-    width: 13em;
-    height: 13em;
+    width: 10em;
+    height: 10em;
     margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
@@ -46,15 +43,28 @@ h1 {
     margin: 0;
 }
 
+.paper-btn {
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+    display: block;
+
+    background-color: #fff;
+    border: 1px solid #ccc;
+
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 .wrapper {
     min-height: 100%;
     margin-bottom: 5em;
 }
 
 .footer {
-    background-image:
-    linear-gradient(
-    #8F8B30, #ADAA68);
+    background-color: #60AA85;
 }
 
 .footer,
