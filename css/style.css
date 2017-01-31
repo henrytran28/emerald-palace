@@ -40,21 +40,36 @@ h1 {
     margin: 0;
 }
 
-p {
-    color: white;
+.title {
+    margin-top: 0.5em;
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 5em;
 }
 
 .middle {
     background-color: #B1B441;
     display: flex;
     height: 40em;
+}
+
+.chinese {
+    letter-spacing: 3px;
+}
+
+.mid-header {
+    font-weight: bold;
+}
+
+.dsc,
+.mid-header {
+    width: 20em;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn {
@@ -78,6 +93,37 @@ p {
 
 .curl:hover {
     border-radius: 0 0 40% 0 / 0 0 30% 0;
+}
+
+.polaroid {
+    margin: 20px;
+    height: 295px;
+    width: 290px;
+    padding: 15px;
+    background-color: #e9e9e9;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.polaroid h4 {
+    font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+    color: #2a2b2b;
+    margin: 15px 0;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0.75;
+}
+
+.photo {
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 0 0 50px rgba(99, 99, 80, 0.8);
+    height: 210px;
+    width: 260px;
+}
+
+.food p {
+    text-align: center;
 }
 
 .footer {
@@ -105,6 +151,9 @@ p {
     color: white;
 }
 
+.food,
+.description,
+.buttons,
 .contact-us,
 .hours-of-op,
 .location {
@@ -129,6 +178,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 15em;
+    color: white;
 }
 
 .map {
