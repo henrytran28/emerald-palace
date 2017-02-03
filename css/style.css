@@ -54,6 +54,8 @@ h1 {
     background-color: #B1B441;
     display: flex;
     height: 40em;
+    min-height: calc(100vh - 25em);
+    /* flex-direction: column; */
 }
 
 .chinese {
