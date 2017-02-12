@@ -90,7 +90,8 @@ h1 {
 }
 
 .btn {
-    width: 250px;
+    width: 15em;
+    height: 3em;
     margin: 20px;
     padding: 10px;
     display: block;
