@@ -57,6 +57,7 @@ h1 {
     height: 40em;
     min-height: calc(100vh - 25em);
     flex-direction: column;
+    align-items: center;
 }
 
 .food {
@@ -68,11 +69,11 @@ h1 {
 }
 
 .buttons {
+    width: 50%;
     height: 30%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     font-family: 'Lato';
     font-size: 16px;
 }
@@ -99,19 +100,8 @@ h1 {
     box-shadow: 0 9px 30px 3px rgba(0,0,0,.46);
 }
 
-.paper {
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
-    0 0 40px rgba(128, 128, 128, 0.1) inset;
-    border-color: #dedede;
-}
-
-.curl:hover {
-    border-radius: 0 0 40% 0 / 0 0 30% 0;
-}
-
 .polaroid {
     margin: 1.5em;
-    height: 18.5em;
     width: 18em;
     padding: 1em;
     background-color: #e9e9e9;
